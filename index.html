@@ -1,0 +1,317 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Barath S | Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Great+Vibes&display=swap"
+    rel="stylesheet">
+</head>
+
+<body class="bg-slate-900 text-white">
+
+  <!-- Navbar -->
+  <nav
+    class="fixed w-full h-20 bg-black/90 backdrop-blur-sm z-50 flex justify-between items-center px-4 md:px-10 text-white shadow-lg">
+    <div>
+      <h1 class="text-5xl font-signature ml-2 cursor-pointer hover:text-cyan-500 duration-200">Barath</h1>
+    </div>
+
+    <!-- Desktop Menu -->
+    <ul class="hidden md:flex">
+      <li
+        class="px-4 cursor-pointer capitalize font-medium text-gray-400 hover:scale-105 duration-200 hover:text-cyan-500">
+        <a href="#home">Home</a>
+      </li>
+      <li
+        class="px-4 cursor-pointer capitalize font-medium text-gray-400 hover:scale-105 duration-200 hover:text-cyan-500">
+        <a href="#about">About</a>
+      </li>
+      <li
+        class="px-4 cursor-pointer capitalize font-medium text-gray-400 hover:scale-105 duration-200 hover:text-cyan-500">
+        <a href="#skills">Skills</a>
+      </li>
+      <li
+        class="px-4 cursor-pointer capitalize font-medium text-gray-400 hover:scale-105 duration-200 hover:text-cyan-500">
+        <a href="#projects">Projects</a>
+      </li>
+      <li
+        class="px-4 cursor-pointer capitalize font-medium text-gray-400 hover:scale-105 duration-200 hover:text-cyan-500">
+        <a href="#contact">Contact</a>
+      </li>
+    </ul>
+
+    <!-- Mobile Menu Button -->
+    <div id="nav-btn" class="cursor-pointer pr-4 z-50 text-gray-400 md:hidden hover:text-cyan-500 duration-200">
+      <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+      </svg>
+    </div>
+
+    <!-- Mobile Menu -->
+    <ul id="mobile-menu"
+      class="hidden flex-col justify-center items-center absolute top-0 left-0 w-full h-screen bg-gradient-to-b from-black to-gray-800 text-gray-400 z-40">
+      <li class="px-4 cursor-pointer capitalize py-6 text-4xl hover:text-cyan-500 duration-200 nav-link"><a
+          href="#home">Home</a></li>
+      <li class="px-4 cursor-pointer capitalize py-6 text-4xl hover:text-cyan-500 duration-200 nav-link"><a
+          href="#about">About</a></li>
+      <li class="px-4 cursor-pointer capitalize py-6 text-4xl hover:text-cyan-500 duration-200 nav-link"><a
+          href="#skills">Skills</a></li>
+      <li class="px-4 cursor-pointer capitalize py-6 text-4xl hover:text-cyan-500 duration-200 nav-link"><a
+          href="#projects">Projects</a></li>
+      <li class="px-4 cursor-pointer capitalize py-6 text-4xl hover:text-cyan-500 duration-200 nav-link"><a
+          href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero Section -->
+  <div id="home" class="h-screen w-full bg-gradient-to-b from-black via-black to-gray-800 pt-20">
+    <div class="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
+
+      <div class="md:w-1/2 flex justify-center mb-10 md:mb-0">
+        <img src="/profile.png" alt="Barath S"
+          class="rounded-2xl mx-auto w-2/3 md:w-full max-w-sm shadow-lg shadow-cyan-500/50 hover:scale-105 duration-300" />
+      </div>
+
+      <div class="flex flex-col justify-center h-full text-center md:text-left md:pl-12">
+        <h2 class="text-4xl sm:text-7xl font-bold text-white animate-fade-in-down">
+          I'm a Java Full Stack Developer
+        </h2>
+        <p class="text-gray-400 py-4 max-w-md mx-auto md:mx-0 text-lg">
+          Aspiring Java Full Stack Developer looking for an opportunity to apply technical skills in Java, SQL, and web
+          technologies while gaining hands-on industry experience.
+        </p>
+
+        <div class="flex flex-col md:flex-row items-center justify-center md:justify-start gap-4">
+          <a href="#projects"
+            class="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer shadow-lg shadow-cyan-500/50 hover:scale-105 duration-300">
+            Projects
+            <span class="group-hover:rotate-90 duration-300 ml-2">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
+                stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+              </svg>
+            </span>
+          </a>
+          <a href="/Barath_Resume.pdf" download="Barath_Resume"
+            class="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-gray-700 to-gray-900 cursor-pointer shadow-lg hover:scale-105 duration-300 border border-gray-600">
+            Download Resume
+            <span class="ml-2">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
+                stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                  d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
+              </svg>
+            </span>
+          </a>
+        </div>
+
+        <div class="flex justify-center md:justify-start gap-6 mt-6">
+          <a href="https://www.linkedin.com/in/barathsaga" target="_blank" rel="noreferrer"
+            class="text-gray-400 hover:text-cyan-500 duration-200">
+            <svg class="w-8 h-8" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+              <path fill-rule="evenodd"
+                d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"
+                clip-rule="evenodd" />
+            </svg>
+          </a>
+          <a href="https://github.com/" target="_blank" rel="noreferrer"
+            class="text-gray-400 hover:text-cyan-500 duration-200">
+            <svg class="w-8 h-8" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+              <path fill-rule="evenodd"
+                d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"
+                clip-rule="evenodd" />
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- About Section -->
+  <div id="about" class="w-full min-h-screen bg-gradient-to-b from-gray-800 to-black text-white py-20">
+    <div class="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
+      <div class="pb-8 text-center md:text-left">
+        <p class="text-4xl font-bold inline border-b-4 border-gray-500">About</p>
+      </div>
+
+      <p class="text-xl mt-10 leading-relaxed text-gray-300">
+        I am <span class="text-cyan-400 font-bold">Barath S</span>, a Bachelor of Science in Information Technology
+        student at Swami Dayananda College of Arts & Science, Manjakudi (2022-2025) with a CGPA of <span
+          class="text-cyan-400 font-bold">7.5/10</span>.
+      </p>
+
+      <br />
+
+      <p class="text-xl leading-relaxed text-gray-300">
+        I have a strong foundation in <span class="text-cyan-400 font-bold">Java Full Stack Development</span>. My
+        technical skills include HTML5, CSS, JavaScript, React, Java, JDBC, and SQL. I am proficient with tools like
+        Visual Studio, Eclipse, Git, GitHub, and MySQL Workbench. I am passionate about problem-solving and
+        collaborative work.
+      </p>
+    </div>
+  </div>
+
+  <!-- Skills Section -->
+  <div id="skills" class="bg-gradient-to-b from-black to-gray-800 w-full min-h-screen py-20">
+    <div class="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white">
+      <div class="pb-8 text-center md:text-left">
+        <p class="text-4xl font-bold border-b-4 border-gray-500 p-2 inline">Skills</p>
+        <p class="py-6 text-gray-400">These are the technologies I've worked with</p>
+      </div>
+
+      <div class="w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center py-8 px-12 sm:px-0">
+
+        <!-- HTML -->
+        <div
+          class="shadow-md shadow-orange-500 hover:scale-105 duration-500 py-4 rounded-lg bg-gray-900/50 backdrop-blur-sm">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML"
+            class="w-20 mx-auto" />
+          <p class="mt-4 font-bold">HTML</p>
+        </div>
+
+        <!-- CSS -->
+        <div
+          class="shadow-md shadow-blue-500 hover:scale-105 duration-500 py-4 rounded-lg bg-gray-900/50 backdrop-blur-sm">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS"
+            class="w-20 mx-auto" />
+          <p class="mt-4 font-bold">CSS</p>
+        </div>
+
+        <!-- JavaScript -->
+        <div
+          class="shadow-md shadow-yellow-500 hover:scale-105 duration-500 py-4 rounded-lg bg-gray-900/50 backdrop-blur-sm">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+            alt="JavaScript" class="w-20 mx-auto" />
+          <p class="mt-4 font-bold">JavaScript</p>
+        </div>
+
+        <!-- React -->
+        <div
+          class="shadow-md shadow-cyan-400 hover:scale-105 duration-500 py-4 rounded-lg bg-gray-900/50 backdrop-blur-sm">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React"
+            class="w-20 mx-auto animate-spin-slow" />
+          <p class="mt-4 font-bold">React</p>
+        </div>
+
+        <!-- Java -->
+        <div
+          class="shadow-md shadow-red-500 hover:scale-105 duration-500 py-4 rounded-lg bg-gray-900/50 backdrop-blur-sm">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java"
+            class="w-20 mx-auto" />
+          <p class="mt-4 font-bold">Java</p>
+        </div>
+
+        <!-- SQL -->
+        <div
+          class="shadow-md shadow-blue-400 hover:scale-105 duration-500 py-4 rounded-lg bg-gray-900/50 backdrop-blur-sm">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="SQL"
+            class="w-20 mx-auto" />
+          <p class="mt-4 font-bold">SQL</p>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- Projects Section -->
+  <div id="projects" class="bg-gradient-to-b from-gray-800 to-black w-full min-h-screen text-white py-20">
+    <div class="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
+      <div class="pb-8 text-center md:text-left">
+        <p class="text-4xl font-bold inline border-b-4 border-gray-500">Projects</p>
+        <p class="py-6 text-gray-400">Check out some of my work right here</p>
+      </div>
+
+      <div class="grid sm:grid-cols-2 gap-12 px-12 sm:px-0">
+
+        <!-- Project 1 -->
+        <div
+          class="shadow-md shadow-gray-600 rounded-lg duration-200 hover:scale-105 bg-gray-900 overflow-hidden group">
+          <div
+            class="h-48 bg-gradient-to-r from-red-900 to-red-600 flex items-center justify-center group-hover:from-red-800 group-hover:to-red-500 duration-300">
+            <h3 class="text-2xl font-bold text-white text-center px-4">Blood Bank Management</h3>
+          </div>
+          <div class="p-6">
+            <p class="text-gray-300 mb-6 leading-relaxed">
+              A web application that manages donor details, blood stock, and blood requests. Helps users check
+              availability and process requests efficiently. Built using HTML, CSS, JavaScript, Java, and SQL.
+            </p>
+            <div class="flex items-center justify-center gap-4">
+              <button
+                class="w-1/2 px-6 py-2 duration-200 hover:scale-105 bg-gradient-to-r from-cyan-500 to-blue-500 rounded-md font-bold">Demo</button>
+              <button
+                class="w-1/2 px-6 py-2 duration-200 hover:scale-105 border border-gray-500 rounded-md hover:bg-gray-800 font-bold">Code</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div
+          class="shadow-md shadow-gray-600 rounded-lg duration-200 hover:scale-105 bg-gray-900 overflow-hidden group">
+          <div
+            class="h-48 bg-gradient-to-r from-blue-900 to-blue-600 flex items-center justify-center group-hover:from-blue-800 group-hover:to-blue-500 duration-300">
+            <h3 class="text-2xl font-bold text-white text-center px-4">Student Database</h3>
+          </div>
+          <div class="p-6">
+            <p class="text-gray-300 mb-6 leading-relaxed">
+              Console-based system using Java and JDBC to add, view, update, and delete student records. Connected to a
+              MySQL database for data persistence.
+            </p>
+            <div class="flex items-center justify-center gap-4">
+              <button
+                class="w-1/2 px-6 py-2 duration-200 hover:scale-105 bg-gradient-to-r from-cyan-500 to-blue-500 rounded-md font-bold">Demo</button>
+              <button
+                class="w-1/2 px-6 py-2 duration-200 hover:scale-105 border border-gray-500 rounded-md hover:bg-gray-800 font-bold">Code</button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- Contact Section -->
+  <div id="contact" class="w-full min-h-screen bg-gradient-to-b from-black to-gray-800 p-4 text-white py-20">
+    <div class="flex flex-col p-4 justify-center max-w-screen-lg mx-auto h-full">
+      <div class="pb-8 text-center md:text-left">
+        <p class="text-4xl font-bold inline border-b-4 border-gray-500">Contact</p>
+        <p class="py-6 text-gray-400">Submit the form below to get in touch with me</p>
+      </div>
+
+      <div class="flex justify-center items-center">
+        <form action="https://formsubmit.co/barathsahadevan@gmail.com" method="POST"
+          class="flex flex-col w-full md:w-1/2 bg-gray-900/50 p-8 rounded-xl shadow-lg backdrop-blur-sm">
+          <!-- FormSubmit Configuration -->
+          <input type="hidden" name="_subject" value="New submission from Portfolio!">
+          <input type="hidden" name="_captcha" value="false">
+          <input type="hidden" name="_autoresponse" value="Thank you for your message! I will get back to you soon.">
+
+          <input type="text" name="name" placeholder="Enter your name" required
+            class="p-3 bg-transparent border-2 border-gray-700 rounded-md text-white focus:outline-none focus:border-cyan-500 duration-200 placeholder-gray-500" />
+          <input type="email" name="email" placeholder="Enter your email" required
+            class="my-4 p-3 bg-transparent border-2 border-gray-700 rounded-md text-white focus:outline-none focus:border-cyan-500 duration-200 placeholder-gray-500" />
+          <textarea name="message" placeholder="Enter your message" rows="8" required
+            class="p-3 bg-transparent border-2 border-gray-700 rounded-md text-white focus:outline-none focus:border-cyan-500 duration-200 placeholder-gray-500"></textarea>
+
+          <button
+            class="text-white bg-gradient-to-b from-cyan-500 to-blue-500 px-6 py-3 my-8 mx-auto flex items-center rounded-md hover:scale-110 duration-300 font-bold shadow-lg shadow-cyan-500/50">
+            Let's talk
+          </button>
+        </form>
+      </div>
+
+      <div class="mt-16 text-center space-y-2">
+        <p class="text-2xl font-bold text-cyan-400">Barath S</p>
+        <p class="text-gray-400 hover:text-white duration-200 cursor-pointer">barathsahadevan@gmail.com</p>
+        <p class="text-gray-400">+91 89408-99407</p>
+        <p class="text-gray-400">Coimbatore, Tamil Nadu</p>
+      </div>
+    </div>
+  </div>
+
+  <script type="module" src="/src/main.js"></script>
+</body>
+
+</html>
